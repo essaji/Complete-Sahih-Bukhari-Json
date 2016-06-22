@@ -1,6 +1,6 @@
 # Complete Sahih Bukhari in Json
 
-This project is a web scrapper which scrappes all the Sahih Hadiths from http://www.sahih-bukhari.com/ & them in JSON format.
+This project is a web scrapper which scrappes all the Sahih Hadiths from http://www.sahih-bukhari.com/ & save them in JSON format.
 
 ## Get it running
 
