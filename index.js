@@ -64,6 +64,9 @@ request(website,function(err,response,html){
             var $ = cheerio.load(html);
 
             var hadiths = $("table[width='730']").children();
+			if(hadiths.length == 0){
+				var hadiths = $("table[width='740']").children();
+			}
 
             for(var i=0;i<hadiths.length;i++){
                 if($(hadiths[i]).next().next().find("td").attr("align") == 'justify'){
